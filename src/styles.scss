@@ -1,0 +1,18 @@
+@import "~vue-material/dist/theme/engine";
+
+html.md-theme-default {
+  height: 100vh;
+  width: 100%;
+  background-color: md-get-palette-color(blue, 50);
+  overflow-y: scroll;
+}
+
+body {
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 425px;
+  margin: 0 auto;
+  background-color: md-get-palette-color(white, 100);
+  box-sizing: border-box;
+}
